@@ -36,8 +36,9 @@ json_only = os.environ.get("JSON_ONLY", "0") == "1"
 
 # --- Tag→category mapping (generic, NOT model-specific) ---
 TAG_CATEGORIES = [
-    (["reasoning", "research"], "Reasoning"),
     (["coding", "code"],        "Coding"),
+    (["reasoning", "research"], "Reasoning"),
+    (["chat"],                  "Chat"),
     (["vision", "multimodal"],  "Vision"),
     (["fast"],                  "Fast"),
     (["cheap", "free", "anon"], "Cheap"),
